@@ -32,8 +32,8 @@ You can find many people by brute forcing the decision trees.
 
 However, you don't have to just take the choices given to you. Try the following words in different places:
 
-water
-flies
-pumpkin pie
-ghost dog
+water -
+flies -
+pumpkin pie -
+ghost dog -
 jedi
