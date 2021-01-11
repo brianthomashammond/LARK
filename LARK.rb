@@ -30,12 +30,12 @@ def sleep_module
 
     puts "
 
-    Did you get a good night's rest?
+        Did you get a good night's rest?
 
-    a. Yes
-    b. No
+        a. Yes
+        b. No
 
-    Enter your choice: a or b?
+        Enter your choice: a or b?
     "
 
     user_choice = gets.chomp.downcase
