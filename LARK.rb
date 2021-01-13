@@ -13,9 +13,9 @@ end
 def start
 
     puts render_ascii_art './ascii/learn.txt'
+    puts ''
 
-    "
-    You just woke up for your BIG day. After three long, hard months of study at LEARN Academy, you are now ready to interview for your internship!".each_char do |value|
+    "You just woke up for your BIG day. After three long, hard months of study at LEARN Academy, you are now ready to interview for your internship!".each_char do |value|
         putc value
         sleep 0.01
     end
@@ -30,12 +30,12 @@ def sleep_module
 
     puts "
 
-        Did you get a good night's rest?
+    Did you get a good night's rest?
 
-        a. Yes
-        b. No
+    a. Yes
+    b. No
 
-        Enter your choice: a or b?
+    Enter your choice: a or b?
     "
 
     user_choice = gets.chomp.downcase
